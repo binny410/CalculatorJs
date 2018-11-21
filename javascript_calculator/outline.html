@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator Project</title>
+        <link rel="stylesheet" href="css/outline.css" type="text/css">
+    </head>
+    <body>
+        
+        <div id='calc-contain'>
+            <form name="cal">
+             <p>Enter Expression:</p>
+            <input type="text" placeholder= "0"  name="abc" id='result' />
+            <div id="output">
+            <div id="tex"> Output: </div>
+            <div id="out"> </div>
+            </div>
+            
+            <br>
+            
+            <input class="press" type="button" value=" c " id="clearr" />
+            <input class="press" type="button" value=" ( " id="leftBrackett" />
+            <input class="press" type="button" value=" ) " id="rightBrackett" />
+            <input class="press" type="button" value=" <-- " id="back" />
+            <br/>
+              
+            <input class="press" type="button" value=" log " id="key_log" />
+            <input class="press" type="button" value=" sin " id="key_sin" />
+            <input class="press" type="button" value=" cos " id="key_cos" />
+            <input class="press" type="button" value=" tan " id="key_tan" />
+            <br/>
+              
+            <input class="press" type="button" value=" e^ " id="key_exp" />
+            <input class="press" type="button" value=" π " id="key_pi" />
+            <input class="press" type="button" value=" √ " id="key_sqrt" />
+            <input class="press" type="button" value=" % " id="key_remain" />
+            <br/>
+              
+              <!-- real -->
+            <input class="press" type="button" value=" 1 " name="one" id="one" />
+            <input class="press" type="button" value=" 2 " name="two" id="two" />
+            <input class="press" type="button" value=" 3 " name="three" id="three" />
+            <input class="press" type="button" value=" + " name="plus" id="pluss" />
+            <br/>
+            
+            <input class="press" type="button" value=" 4 " name="four" id="four" />
+            <input class="press" type="button" value=" 5 " name="five" id="five" />
+            <input class="press" type="button" value=" 6 " name="six" id="six" />
+            <input class="press" type="button" value=" - " name="minus" id="minuss" />
+            <br/>
+          
+            <input class="press" type="button" value=" 7 " name="seven" id="seven" />
+            <input class="press" type="button" value=" 8 " name="eight" id="eight" />
+            <input class="press" type="button" value=" 9 " name="nine" id="nine" />
+            <input class="press" type="button" value=" * " name="multiply" id="multi" />
+            <br/>
+        
+            <input class="press" type="button" value=" . " name="dot" id="key_dot"/>
+            <input class="press" type="button" value=" 0 " name="zero" id="zero" />
+            <input class="press" id="equals" type="button" value = " = "  name="equals" /> <!-- onclick="calculator.answer.value = eval(calculator.answer.value)" -->
+            <input class="press" type="button" value=" / " name="divide" id="dividee" />
+            <br/>
+  
+            </form>
+        </div>
+        <script src="js/calcode.js"></script>
+    </body>
+</html>
